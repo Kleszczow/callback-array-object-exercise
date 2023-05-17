@@ -1,3 +1,4 @@
+/*
 const data = [1, 2, 3, 4, 5];
 
 const newforRach = data.forEach((a) => {
@@ -40,3 +41,14 @@ const numbers = [13, 22, 188, 43, 25];
 let sorted = numbers.sort((a, b) => a - b);
 
 console.log(sorted);
+
+city = ["warSzawa", "BiałYstoK", "GLIWICe"];
+//start with big letter and the rest of small letters.
+
+const letter = city.map((pleace) => {
+  const newCity = pleace[0].toUpperCase() + pleace.substring(1).toLowerCase();
+
+  return newCity;
+});
+console.log(letter);
+*/
