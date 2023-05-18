@@ -1,3 +1,4 @@
+/*
 const logA = (callback) => {
   setTimeout(() => {
     console.log("a");
@@ -44,3 +45,4 @@ const countResolut = showresolut(10, 15, count);
 console.log(countResolut);
 
 //-----------------------------
+*/

@@ -74,12 +74,11 @@ chips.showChips();
 function idk(name) {
   this.name = name;
   this.sayHello = function () {
-    alert(this.name);
+    return this.name;
   };
-  console.log(idk.name);
 }
 const newIdk = new idk("horse");
-console.log(newIdk.name);
+console.log(newIdk.sayHello());
 
 //--------------------------------------
 
